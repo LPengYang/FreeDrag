@@ -9,7 +9,7 @@ Official implementation of **FreeDrag: Point Tracking is Not You Need for Intera
 - *Institutes*: University of Science and Technology of China; Shanghai AI Laboratory
 - [Paper] [Demo] [Project Page]
 
-This repo proposes FreeDrag, a novel interactive point-based image editing framework free of the laborious and unstable point tracking process.
+This repo proposes FreeDrag, a novel interactive point-based image editing framework free of the laborious and unstable point tracking process🔥🔥🔥.
 
 ## Abstract
 To serve the intricate and varied demands of image editing, precise and flexible manipulation of image content is indispensable. Recently, DragGAN has achieved impressive editing results through point-based manipulation. It includes two alternating steps: (1) a motion supervision step that drives the handle points to move toward the target positions and (2) a point tracking step that consistently localizes the position of moved handle points. However, we have observed that **DragGAN struggles with maintaining content and layout consistency due to laborious and unstable point tracking**. In light of this, we propose a tracking-free point-based image editing framework called **FreeDrag**.
