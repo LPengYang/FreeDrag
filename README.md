@@ -35,7 +35,7 @@ Specifically, for each handle point, FreeDrag decomposes the overall movement to
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
 ```bibtex
-@article{liu2023grounding,
+@article{ling2023free,
   title={FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing},
   author={Pengyang, Ling and Lin, Chen and Huaian, Chen and Yi, Jin},
   journal={arXiv preprint},
