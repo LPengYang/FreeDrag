@@ -5,8 +5,8 @@
 # FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
 
 Official implementation of **FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing**.
-- *Authors*: Pengyang Ling*, [Lin Chen*](https://lin-chen.site), Huaian Chen, Yi Jin
-- *Institutes*: University of Science and Technology of China; Shanghai AI Laboratory
+- Pengyang Ling*, [Lin Chen*](https://lin-chen.site), Huaian Chen, Yi Jin
+- University of Science and Technology of China; Shanghai AI Laboratory
 - [Paper] [Demo] [Project Page]
 
 This repo proposes FreeDrag, a novel interactive point-based image editing framework free of the laborious and unstable point tracking process.
