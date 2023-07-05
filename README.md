@@ -32,6 +32,7 @@ Specifically, for each handle point, FreeDrag decomposes the overall movement to
 - [DragGAN](https://github.com/XingangPan/DragGAN/)
 - [DragDiffusion](https://yujun-shi.github.io/projects/dragdiffusion.html)
 - [StyleGAN3](https://github.com/NVlabs/stylegan3)
+
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
 ```bibtex
