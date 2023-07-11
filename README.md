@@ -6,7 +6,7 @@
 
 # FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; text-align: center">
+<!-- <div style="display: flex; flex-wrap: wrap; gap: 10px; text-align: center">
   <div class="img-with-text">
       <img width="120" height="120" src="./resources/examples/elephant_53/original_clear.png" />
       <figcaption style="font-size:20px">Original</figcaption>
@@ -23,7 +23,7 @@
       <img width="120" height="120" src="./resources/examples/elephant_53/FreeDrag.gif" />
       <figcaption style="font-size:20px">FreeDrag</figcaption>
   </div>
-</div>
+</div> -->
 
 <!--
 <div style="display: flex; flex-wrap: wrap; gap: 10px; text-align: center; justify-content: center;">
