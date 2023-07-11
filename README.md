@@ -7,7 +7,7 @@
 Official implementation of **FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing**.
 - *Authors*: Pengyang Ling*, [Lin Chen*](https://lin-chen.site), [Pan Zhang](https://panzhang0212.github.io/), Huaian Chen, Yi Jin
 - *Institutes*: University of Science and Technology of China; Shanghai AI Laboratory
-- [Paper] [Demo] [Project Page]
+- [[Paper]](https://arxiv.org/abs/2307.04684) [[Project Page]]() [Web Demo]
 
 This repo proposes FreeDrag, a novel interactive point-based image editing framework free of the laborious and unstable point tracking process🔥🔥🔥.
 
@@ -18,7 +18,7 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 ![](resources/fig1.png)
 
 ## 📜 News
-[2023/7/7] The paper is released!
+[2023/7/11] The [paper](https://arxiv.org/abs/2307.04684) is released!
 
 ## 💡 Highlights
 - [ ] WebUI of FreeDrag
