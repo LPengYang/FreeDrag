@@ -8,19 +8,19 @@
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; text-align: center; justify-content: center;">
   <div class="img-with-text">
-      <img width="240" height="240" src="./resources/examples/elephant_53/original_clear.png" />
+      <img width="120" height="120" src="./resources/examples/elephant_53/original_clear.png" />
       <figcaption style="font-size:20px">Original</figcaption>
   </div>
   <div class="img-with-text">
-      <img width="240" height="240" src="./resources/examples/elephant_53/original_edit.png" />
+      <img width="120" height="120" src="./resources/examples/elephant_53/original_edit.png" />
       <figcaption style="font-size:20px">User edit</figcaption>
   </div>
   <div class="img-with-text">
-      <img width="240" height="240" src="./resources/examples/elephant_53/DragGAN.gif" />
+      <img width="120" height="120" src="./resources/examples/elephant_53/DragGAN.gif" />
       <figcaption style="font-size:20px">DragGAN</figcaption>
   </div>
   <div class="img-with-text">
-      <img width="240" height="240" src="./resources/examples/elephant_53/FreeDrag.gif" />
+      <img width="120" height="120" src="./resources/examples/elephant_53/FreeDrag.gif" />
       <figcaption style="font-size:20px">FreeDrag</figcaption>
   </div>
 </div>
