@@ -18,7 +18,7 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 ![](resources/fig1.png)
 
 ## 📜 News
-[2023/7/11] The [paper](https://arxiv.org/abs/2307.04684) and [project page](https://lin-chen.site/projects/freedrag) is released!
+[2023/7/11] The [paper](https://arxiv.org/abs/2307.04684) and [project page](https://lin-chen.site/projects/freedrag) are released!
 
 ## 💡 Highlights
 - [ ] WebUI of FreeDrag
