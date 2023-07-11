@@ -41,5 +41,5 @@ If you find our work helpful for your research, please consider citing the follo
             author = {Pengyang Ling and Lin Chen and Pan Zhang and Huaian Chen and Yi Jin},
             booktitle = {arXiv preprint arXiv:2307.04684},
             year = {2023},
-        }
+}
 ```
