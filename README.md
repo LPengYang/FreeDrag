@@ -4,6 +4,54 @@
 
 # FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px; text-align: center; justify-content: center;">
+  <div class="img-with-text">
+      <img width="240" height="240" src="./resources/examples/elephant_53/original_clear.png" />
+      <figcaption style="font-size:20px">Original</figcaption>
+  </div>
+  <div class="img-with-text">
+      <img width="240" height="240" src="./resources/examples/elephant_53/original_edit.png" />
+      <figcaption style="font-size:20px">User edit</figcaption>
+  </div>
+  <div class="video-with-text">
+      <video width="240" height="240" controls>
+          <source src="./resources/examples/elephant_53/DragGAN.mp4">
+      </video>
+      <figcaption style="font-size:20px">DragGAN</figcaption>
+  </div>
+  <div class="video-with-text">
+      <video width="240" height="240" controls>
+          <source src="./resources/examples/elephant_53/FreeDrag.mp4">
+      </video>
+      <figcaption style="font-size:20px">FreeDrag</figcaption>
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; text-align: center; justify-content: center;">
+  <div class="img-with-text">
+      <img width="240" height="240" src="./resources/examples/face_233/original_clear.png" />
+      <figcaption style="font-size:20px">Original</figcaption>
+  </div>
+  <div class="img-with-text">
+      <img width="240" height="240" src="./resources/examples/face_233/original_edit.png" />
+      <figcaption style="font-size:20px">User edit</figcaption>
+  </div>
+  <div class="video-with-text">
+      <video width="240" height="240" controls>
+          <source src="./resources/examples/face_233/DragGAN.mp4">
+      </video>
+      <figcaption style="font-size:20px">DragGAN</figcaption>
+  </div>
+  <div class="video-with-text">
+      <video width="240" height="240" controls>
+          <source src="./resources/examples/face_233/FreeDrag.mp4">
+      </video>
+      <figcaption style="font-size:20px">FreeDrag</figcaption>
+  </div>
+</div>
+
 Official implementation of **FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing**.
 - *Authors*: Pengyang Ling*, [Lin Chen*](https://lin-chen.site), [Pan Zhang](https://panzhang0212.github.io/), Huaian Chen, Yi Jin
 - *Institutes*: University of Science and Technology of China; Shanghai AI Laboratory
