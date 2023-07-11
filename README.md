@@ -90,5 +90,5 @@ If you find our work helpful for your research, please consider citing the follo
 }
 ```
 
-## Star History
+## 🌟 Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=LPengYang/FreeDrag&type=Date)](https://star-history.com/#LPengYang/FreeDrag&Date)
