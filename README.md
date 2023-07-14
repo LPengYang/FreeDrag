@@ -36,11 +36,11 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
 ```bibtex
-@InProceedings{ling2023freedrag,
-            title = {FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing},
-            author = {Pengyang Ling and Lin Chen and Pan Zhang and Huaian Chen and Yi Jin},
-            booktitle = {arXiv preprint arXiv:2307.04684},
-            year = {2023},
+@article{ling2023freedrag,
+  title={FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing},
+  author={Ling, Pengyang and Chen, Lin and Zhang, Pan and Chen, Huaian and Jin, Yi},
+  journal={arXiv preprint arXiv:2307.04684},
+  year={2023}
 }
 ```
 
