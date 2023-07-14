@@ -4,7 +4,7 @@
 
 # :boom: Code is available now!
 
-# Video Demo
+## Video Demo
 [![](resources/fig1.png)](https://user-images.githubusercontent.com/58554846/253602157-2f82633b-1c11-4cdb-a21b-deaf1d4209f3.mp4)
 
 # FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
@@ -16,8 +16,6 @@ Official implementation of **FreeDrag: Point Tracking is Not You Need for Intera
 
 This repo proposes FreeDrag, a novel interactive point-based image editing framework free of the laborious and unstable point tracking process🔥🔥🔥.
 https://github.com/LPengYang/FreeDrag/issues/1#issue-1805005537
-
-
 
 ## Abstract
 To serve the intricate and varied demands of image editing, precise and flexible manipulation of image content is indispensable. Recently, DragGAN has achieved impressive editing results through point-based manipulation. 
@@ -32,7 +30,17 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 - [ ] FreeDrag anything **3D**
 
 ## 🛠️Usage
-**The demo and detailed code will be released in this or next week, please stay tuned🔥!**
+
+First download the pre-trained models of stylegan2
+```
+bash download_models.sh
+```
+Then initialize the gradio for interactive point-based manipulation
+
+```
+export CUDA_LAUNCH_BLOCKING=1
+python FreeDrag_gradio.py
+```
 
 ## ❤️Acknowledgments
 - [DragGAN](https://github.com/XingangPan/DragGAN/)
