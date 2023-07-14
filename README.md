@@ -16,7 +16,7 @@ To serve the intricate and varied demands of image editing, precise and flexible
 However, we have observed that DragGAN struggles with miss tracking, where DragGAN encounters difficulty in effectively tracking the desired handle points, and ambiguous tracking, where the tracked points are situated within other regions that bear resemblance to the handle points. To deal with the above issues, we propose **FreeDrag**, which adopts a feature-oriented approach to free the burden on point tracking within the point-oriented methodology of DragGAN. The **FreeDrag** incorporates adaptive template features, line search, and fuzzy localization techniques to perform stable and efficient point-based image editing. Extensive experiments demonstrate that our method is superior to the DragGAN and enables stable point-based editing in challenging scenarios with similar structures, fine details, or under multi-point targets. 
 
 # Video Demo
-![](resources/fig1.png)
+[![](resources/fig1.png)](https://user-images.githubusercontent.com/58554846/253602157-2f82633b-1c11-4cdb-a21b-deaf1d4209f3.mp4)
 
 ## 📜 News
 [2023/7/11] The [paper](https://arxiv.org/abs/2307.04684) and [project page](https://lin-chen.site/projects/freedrag) are released!
