@@ -1,10 +1,10 @@
+# :boom: Code is available now!
+
 <p align="center">
   <img src="./resources/logo2.png">
 </p>
 
-# :boom: Code is available now!
-
-## Video Demo
+# Video Demo
 [![](resources/fig1.png)](https://user-images.githubusercontent.com/58554846/253602157-2f82633b-1c11-4cdb-a21b-deaf1d4209f3.mp4)
 
 # FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
