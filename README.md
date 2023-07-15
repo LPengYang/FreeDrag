@@ -39,7 +39,7 @@ git clone --depth=1 https://github.com/LPengYang/FreeDrag
 
 Then download the pre-trained models of stylegan2
 ```
-cd FreeDrag & bash download_models.sh
+bash download_models.sh
 ```
 Finally initialize the gradio platform for interactive point-based manipulation
 
