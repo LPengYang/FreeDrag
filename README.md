@@ -3,7 +3,7 @@
 </p>
 
 # FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
-[![]](https://user-images.githubusercontent.com/58554846/253602157-2f82633b-1c11-4cdb-a21b-deaf1d4209f3.mp4)
+[![]](https://user-images.githubusercontent.com/58554846/253733958-c97629a0-5928-476b-99f2-79d5f92762e7.mp4)
 
 Official implementation of **FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing**.
 - *Authors*: Pengyang Ling*, [Lin Chen*](https://lin-chen.site), [Pan Zhang](https://panzhang0212.github.io/), Huaian Chen, Yi Jin
