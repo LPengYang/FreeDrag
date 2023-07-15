@@ -155,7 +155,7 @@ def free_drag(model, points, mask, handle_size, train_layer_index, ws_original,m
         current_target = handle_point.clone().cuda()
         current_feature_map = feature_original.detach()
 
-        sign_points= torch.zeros(point_pairs_number).to(device) # determiner if the localization point is closest to target point
+        sign_points= torch.zeros(point_pairs_number).to(device) # determine if the located point is close enough to target point
         loss_ini = torch.zeros(point_pairs_number).to(device)
         loss_end = torch.zeros(point_pairs_number).to(device)
         
