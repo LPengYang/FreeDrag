@@ -50,7 +50,7 @@ CUDA_LAUNCH_BLOCKING=1 python FreeDrag_gradio.py
 ## ❤️Acknowledgments
 - [DragGAN](https://github.com/XingangPan/DragGAN/)
 - [DragDiffusion](https://yujun-shi.github.io/projects/dragdiffusion.html)
-- [StyleGAN3](https://github.com/NVlabs/stylegan3)
+- [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch)
 
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
