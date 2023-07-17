@@ -284,7 +284,5 @@ with demo:
     imagetab.select(update_mask,[image,mask_show],[image,mask])
     masktab.select(on_select_mask_tab, inputs=[image], outputs=[mask_show])
 
-
-if __name__ == "__main__":
-    
+if __name__ == "__main__": 
      demo.queue(concurrency_count=1,max_size=30).launch(share=True)
