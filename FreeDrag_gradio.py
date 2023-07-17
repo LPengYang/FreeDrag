@@ -287,4 +287,4 @@ with demo:
 
 if __name__ == "__main__":
     
-     demo.queue(concurrency_count=1,max_size=30).launch()
+     demo.queue(concurrency_count=1,max_size=30).launch(share=True)
