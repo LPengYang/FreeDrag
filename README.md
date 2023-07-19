@@ -36,9 +36,9 @@ First clone our repository
 ```
 git clone --depth=1 https://github.com/LPengYang/FreeDrag
 ```
-To create a new environment, please follow the requirements of [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3#requirements). 
+To create a new environment, please follow the requirements of [NVlabs/stylegan2-ada](https://github.com/NVlabs/stylegan2-ada-pytorch#requirements). 
 
-**Notice:** It is observed that the errors (setting up PyTorch plugin “bias_act_plugin“... Failed or “upfirdn2d_plugin“... Failed) may appear in some devices, we hope these potential solutions ([1](https://blog.csdn.net/qq_15969343/article/details/129190607),[2](https://github.com/NVlabs/stylegan3/issues/124), [3](https://github.com/XingangPan/DragGAN/issues/106)) could be helpful in this case.
+**Notice:** It is observed that the errors (setting up PyTorch plugin “bias_act_plugin“... Failed or “upfirdn2d_plugin“... Failed) may appear in some devices, we hope these potential solutions ([1](https://blog.csdn.net/qq_15969343/article/details/129190607), [2](https://github.com/NVlabs/stylegan2-ada-pytorch/issues/155), [3](https://github.com/NVlabs/stylegan3/issues/124), [4](https://github.com/XingangPan/DragGAN/issues/106)) could be helpful in this case.
 
 Then install the additional requirements
 
@@ -50,7 +50,7 @@ Then download the pre-trained models of stylegan2
 ```
 bash download_models.sh
 ```
-**Notice:**  The first model (face model) could be downed very slowly in some cases. In this case, you can restart the download (works sometimes) or you can directly download it from this [link](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files), please download the correct model (ffhq-512×512) and renamed it as "faces.pkl" and manually put it in the created checkpoints file (after all the other models are downloaded).
+**Notice：**  The first model (face model) could be downed very slowly in some cases. In this case, you can restart the download (works sometimes) or you can directly download it from this [link](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files), please download the correct model (ffhq-512×512) and renamed it as "faces.pkl" and manually put it in the created checkpoints file (after all the other models are downloaded).
 
 Finally initialize the gradio platform for interactive point-based manipulation
 
@@ -62,6 +62,10 @@ CUDA_LAUNCH_BLOCKING=1 python FreeDrag_gradio.py
 - [DragGAN](https://github.com/XingangPan/DragGAN/)
 - [DragDiffusion](https://yujun-shi.github.io/projects/dragdiffusion.html)
 - [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch)
+- 
+## License
+All codes used or modified from [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch) are under the [Nvidia Source Code License](https://github.com/NVlabs/stylegan3/blob/main/LICENSE.txt). 
+The code related to the FreeDrag algorithm is only allowed for personal activity. For commercial use, please contact us.
 
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
