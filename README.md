@@ -62,7 +62,7 @@ CUDA_LAUNCH_BLOCKING=1 python FreeDrag_gradio.py
 - [DragGAN](https://github.com/XingangPan/DragGAN/)
 - [DragDiffusion](https://yujun-shi.github.io/projects/dragdiffusion.html)
 - [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch)
-- 
+  
 ## License
 All codes used or modified from [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch) are under the [Nvidia Source Code License](https://github.com/NVlabs/stylegan3/blob/main/LICENSE.txt). 
 The code related to the FreeDrag algorithm is only allowed for personal activity. For commercial use, please contact us.
