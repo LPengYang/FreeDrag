@@ -114,7 +114,7 @@ def free_drag(model, points, mask, handle_size, train_layer_index, ws_original,m
 
         win_r = 3
         threshold_l = 0.5*l_expected
-        aa = torch.log(torch.tensor(9.0).cuda())/(0.6*l_expected)
+        aa = torch.log(torch.tensor(9.0,device=device))/(0.6*l_expected)
         bb = 0.2*l_expected
         feature_original, img_mid_original = model.get_features(ws_original,x=None, img=None, mid_size= handle_size)
         
@@ -152,13 +152,13 @@ def free_drag(model, points, mask, handle_size, train_layer_index, ws_original,m
             template_feature.append( get_features_plus(feature_original,handle_point[k,:]+position_local))
 
         step_number = 0
-        current_target = handle_point.clone().cuda()
+        current_target = handle_point.clone().to(device)
         current_feature_map = feature_original.detach()
 
         sign_points= torch.zeros(point_pairs_number).to(device) # determine if the located point is close enough to target point
         loss_ini = torch.zeros(point_pairs_number).to(device)
         loss_end = torch.zeros(point_pairs_number).to(device)
-        
+        step_threshold = max_steps
         
         while step_number<max_steps:
              if torch.all(sign_points==1):         
@@ -168,6 +168,7 @@ def free_drag(model, points, mask, handle_size, train_layer_index, ws_original,m
              
              current_target = get_current_target(sign_points, current_target,target_point,l_expected,current_feature_map, 
                 d_max, template_feature, loss_ini, loss_end, position_local, threshold_l)
+             d_remain = (current_target-target_point).pow(2).sum(dim=1).pow(0.5)
 
              for step in range(5):          
                 step_number +=1      
@@ -202,7 +203,7 @@ def free_drag(model, points, mask, handle_size, train_layer_index, ws_original,m
                 if loss_supervised.max()<0.5*threshold_l:
                     break
 
-                if step_number == max_steps:
+                if step_number == max_steps or step_number>step_threshold+10:
                     _,img_show = model.get_features(ws_input,x=feature_mid, img=img_mid, mid_size=handle_size,noise_mode='const')
                     yield img_show, current_target*(full_size/handle_size), step_number, full_size, torch.cat([ws_trainable, ws_untrainable], dim=1).detach()
                     break
@@ -216,6 +217,8 @@ def free_drag(model, points, mask, handle_size, train_layer_index, ws_original,m
                  for k in range(point_pairs_number):
                     current_feature.append (get_features_plus(feature_mid,current_target[k,:]+position_local))
                     loss_end[k] = Loss_l1(current_feature[k],template_feature[k].detach())
+             if d_remain.max()<threshold_d:
+                 step_threshold = step_number
 
              update_signs(sign_points,current_target,target_point,loss_end,threshold_d,0.5*threshold_l)
              for k in range(point_pairs_number):
