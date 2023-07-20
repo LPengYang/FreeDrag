@@ -165,7 +165,11 @@ SIZE_TO_CLICK_SIZE = {
     256: 3,
 }
 
-device = 'cuda'
+if torch.cuda.is_available():    
+   device = 'cuda'
+else:
+   device = 'cpu'
+    
 demo = gr.Blocks()
 
 with demo:
