@@ -20,6 +20,12 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 </p>
 
 ## 📜 News
+[2023/7/28] The function of real image editing is available now. You can upload your images and then edit them as before. For a high-quality image inversion, it is suggested to make sure that the resolution and style (such as layout) of the uploaded images are consistent with the generated images of corresponding model. The resolution of different model is listed as follows:
+
+|Model|face|horse|elephant|lion|dog|bicycle|giraffe|cat|car|church|metface|
+|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Resolution|512|256|512|512|1024|256|512|512|512|256|1024|
+
 [2023/7/15] Code of local demo is available now!💥
 
 [2023/7/11] The [paper](https://arxiv.org/abs/2307.04684) and [project page](https://lin-chen.site/projects/freedrag) are released!
