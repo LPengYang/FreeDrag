@@ -5,10 +5,13 @@
 # FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
 [![]](https://user-images.githubusercontent.com/58554846/253733958-c97629a0-5928-476b-99f2-79d5f92762e7.mp4)
 
-Official implementation of **FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing**.
+## Web Demo
+[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag)
+
+Official implementation of **FreeDrag: Point Tracking is Not What You Need for Interactive Point-based Image Editing**.
 - *Authors*: Pengyang Ling*, [Lin Chen*](https://lin-chen.site), [Pan Zhang](https://panzhang0212.github.io/), Huaian Chen, Yi Jin
 - *Institutes*: University of Science and Technology of China; Shanghai AI Laboratory
-- [[Paper]](https://arxiv.org/abs/2307.04684) [[Project Page]](https://lin-chen.site/projects/freedrag) [Web Demo]
+- [[Paper]](https://arxiv.org/abs/2307.04684) [[Project Page]](https://lin-chen.site/projects/freedrag) [[Web Demo]](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag)
 
 This repo proposes FreeDrag, a novel interactive point-based image editing framework free of the laborious and unstable point tracking process🔥🔥🔥.
 
