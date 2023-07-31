@@ -23,11 +23,9 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 </p>
 
 ## 📜 News
-[2023/7/28] The function of real image editing is available now. You can upload your images and then edit them as before. For a high-quality image inversion, it is suggested to make sure that the resolution and style (such as layout) of the uploaded images are consistent with the generated images of corresponding model. The resolution of different model is listed as follows:
+[2023/7/31] The web demo in [OpenXLab](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag) is available now.
 
-|Model|face|horse|elephant|lion|dog|bicycle|giraffe|cat|car|church|metface|
-|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Resolution|512|256|512|512|1024|256|512|512|512|256|1024|
+[2023/7/28] The function of real image editing is available now.
 
 [2023/7/15] Code of local demo is available now!💥
 
@@ -35,7 +33,7 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 
 ## 💡 Highlights
 - [x] Local demo of FreeDrag
-- [ ] Web demo of FreeDrag
+- [x] Web demo of FreeDrag
 - [ ] Diffusion-based FreeDrag
 - [ ] FreeDrag anything **3D**
 
@@ -66,6 +64,11 @@ Finally initialize the gradio platform for interactive point-based manipulation
 ```
 CUDA_LAUNCH_BLOCKING=1 python FreeDrag_gradio.py
 ```
+You can also upload your images and then edit them. For a high-quality image inversion, it is suggested to make sure that the resolution and style (such as layout) of the uploaded images are consistent with the generated images of corresponding model. The resolution of different model is listed as follows:
+
+|Model|face|horse|elephant|lion|dog|bicycle|giraffe|cat|car|church|metface|
+|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Resolution|512|256|512|512|1024|256|512|512|512|256|1024|
 
 ## ❤️Acknowledgments
 - [DragGAN](https://github.com/XingangPan/DragGAN/)
