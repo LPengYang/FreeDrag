@@ -189,7 +189,7 @@ with demo:
             """
             # **FreeDrag**
             
-            Official implementation of [FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing](https://github.com/LPengYang/FreeDrag)
+            Official implementation of [FreeDrag: Point Tracking is Not What You Need for Interactive Point-based Image Editing](https://github.com/LPengYang/FreeDrag)
 
             
             ## Parameter Description
