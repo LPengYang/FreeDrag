@@ -2,7 +2,7 @@
   <img src="./resources/logo2.png">
 </p>
 
-# FreeDrag: Point Tracking is Not You Need for Interactive Point-based Image Editing
+# FreeDrag: Point Tracking is Not What You Need for Interactive Point-based Image Editing
 [![]](https://user-images.githubusercontent.com/58554846/253733958-c97629a0-5928-476b-99f2-79d5f92762e7.mp4)
 
 ## Web Demo
