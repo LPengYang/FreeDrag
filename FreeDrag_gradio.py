@@ -232,7 +232,7 @@ with demo:
 
                 model_load, _ = load_model(model_name.value, device)
                 model = gr.State(ModelWrapper(model_load,model_name.value))
-                l_expected = gr.Slider(0.1,0.5,label='Eepected initial loss for each sub-motion',value = model.value.l,step=0.05)
+                l_expected = gr.Slider(0.1,0.5,label='Expected initial loss for each sub-motion',value = model.value.l,step=0.05)
                 d_max= gr.Slider(1.0,6.0,label='Max distance for each sub-motion (in the feature map)',value = model.value.d,step=0.5)
 
                 res = gr.State(model.value.res)
