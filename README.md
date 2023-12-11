@@ -15,15 +15,20 @@ Official implementation of **FreeDrag: Point Tracking is Not What You Need for I
 
 This repo proposes FreeDrag, a novel interactive point-based image editing framework free of the laborious and unstable point tracking process🔥🔥🔥.
 
+
 ## Abstract
-To serve the intricate and varied demands of image editing, precise and flexible manipulation of image content is indispensable. Recently, DragGAN has achieved impressive editing results through point-based manipulation. 
-However, we have observed that DragGAN struggles with miss tracking, where DragGAN encounters difficulty in effectively tracking the desired handle points, and ambiguous tracking, where the tracked points are situated within other regions that bear resemblance to the handle points. To deal with the above issues, we propose **FreeDrag**, which adopts a feature-oriented approach to free the burden on point tracking within the point-oriented methodology of DragGAN. The **FreeDrag** incorporates adaptive template features, line search, and fuzzy localization techniques to perform stable and efficient point-based image editing. Extensive experiments demonstrate that our method is superior to the DragGAN and enables stable point-based editing in challenging scenarios with similar structures, fine details, or under multi-point targets. 
+To serve the intricate and varied demands of image editing, precise and flexible manipulation in image content is indispensable. Recently, Drag-based editing methods have gained impressive performance. However, these methods predominantly center on point dragging, resulting in two noteworthy drawbacks, namely "miss tracking", where difficulties arise in accurately tracking the predetermined handle points, and "ambiguous tracking", where tracked points are potentially positioned in wrong regions that closely resemble the handle points. To address the above issues, we propose **FreeDrag**, a feature dragging methodology designed to free the burden on point tracking. The **FreeDrag** incorporates two key designs, i.e., template feature via adaptive updating and line search with backtracking, the former improves the stability against drastic content change by elaborately controls feature updating scale after each dragging, while the latter alleviates the misguidance from similar points by actively restricting the search area in a line. These two technologies together contribute to a more stable semantic dragging with higher efficiency. Comprehensive experimental results substantiate that our approach significantly outperforms pre-existing methodologies, offering reliable point-based editing even in various complex scenarios.
+
 <p align="center">
   <img src="./resources/fig1.png">
 </p>
 
 ## 📜 News
-[2023/7/31] The web demo in [OpenXLab](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag) is available now.
+[2023/12/11] The updataed [FreeDrag](https://arxiv.org/abs/2307.04684) containing the implementations in both StyleGAN and Diffusion models is available now.
+
+[2023/12/8]  FreeDrag based on diffusion model is available now, which support dragging editing in both real images and generated images.
+
+[2023/7/31] The web demo (StyleGAN) in [OpenXLab](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag) is available now.
 
 [2023/7/28] The function of real image editing is available now.
 
@@ -34,8 +39,7 @@ However, we have observed that DragGAN struggles with miss tracking, where DragG
 ## 💡 Highlights
 - [x] Local demo of FreeDrag
 - [x] Web demo of FreeDrag
-- [ ] Diffusion-based FreeDrag
-- [ ] FreeDrag anything **3D**
+- [x] Diffusion-based FreeDrag
 
 ## 🛠️Usage
 
@@ -57,7 +61,7 @@ Then download the pre-trained models of stylegan2
 ```
 bash download_models.sh
 ```
-**Notice：**  The first model (face model) could be downed very slowly in some cases. In this case, you can restart the download (works sometimes) or you can directly download it from this [link](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files), please download the correct model (ffhq-512×512) and renamed it as "faces.pkl" and manually put it in the created checkpoints file (after all the other models are downloaded).
+**Notice：**  The first model (face model) could be downloaded very slowly in some cases. In this case, it is suggested to restart the download (works sometimes) or directly download it from this [link](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/research/models/stylegan2/files), please download the correct model (ffhq-512×512) and renamed it as "faces.pkl" and manually put it in the created checkpoints file (after all the other models are downloaded).
 
 Finally initialize the gradio platform for interactive point-based manipulation
 
@@ -77,7 +81,7 @@ You can also upload your images and then edit them. For a high-quality image inv
   
 ## License
 All codes used or modified from [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch) are under the [Nvidia Source Code License](https://github.com/NVlabs/stylegan3/blob/main/LICENSE.txt). 
-The code related to the FreeDrag algorithm is only allowed for personal activity. For commercial use, please contact us.
+The code related to the FreeDrag algorithm is only allowed for personal activity. The diffusion-based FreeDrag is implemented based on [DragDiffusion](https://yujun-shi.github.io/projects/dragdiffusion.html).
 
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
