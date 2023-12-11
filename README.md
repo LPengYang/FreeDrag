@@ -2,8 +2,15 @@
   <img src="./resources/logo2.png">
 </p>
 
-# FreeDrag: Point Tracking is Not What You Need for Interactive Point-based Image Editing
+# FreeDrag: Feature Dragging for Reliable Point-based Image Editing
+<p align="center">
+  <img src="./resources/Teaser.png">
+  <img src="./resources/comparison_diffusion_2.png">
+</p>
+
+## Visualization 
 [![]](https://user-images.githubusercontent.com/58554846/253733958-c97629a0-5928-476b-99f2-79d5f92762e7.mp4)
+
 
 ## Web Demo
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag)
@@ -20,7 +27,8 @@ This repo proposes FreeDrag, a novel interactive point-based image editing frame
 To serve the intricate and varied demands of image editing, precise and flexible manipulation in image content is indispensable. Recently, Drag-based editing methods have gained impressive performance. However, these methods predominantly center on point dragging, resulting in two noteworthy drawbacks, namely "miss tracking", where difficulties arise in accurately tracking the predetermined handle points, and "ambiguous tracking", where tracked points are potentially positioned in wrong regions that closely resemble the handle points. To address the above issues, we propose **FreeDrag**, a feature dragging methodology designed to free the burden on point tracking. The **FreeDrag** incorporates two key designs, i.e., template feature via adaptive updating and line search with backtracking, the former improves the stability against drastic content change by elaborately controls feature updating scale after each dragging, while the latter alleviates the misguidance from similar points by actively restricting the search area in a line. These two technologies together contribute to a more stable semantic dragging with higher efficiency. Comprehensive experimental results substantiate that our approach significantly outperforms pre-existing methodologies, offering reliable point-based editing even in various complex scenarios.
 
 <p align="center">
-  <img src="./resources/fig1.png">
+  <img src="./resources/comparison_gan.png">
+  <img src="./resources/comparison_diffusion_1.png">
 </p>
 
 ## 📜 News
@@ -87,8 +95,8 @@ The code related to the FreeDrag algorithm is only allowed for personal activity
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
 ```bibtex
 @misc{ling2023freedrag,
-      title={FreeDrag: Point Tracking is Not What You Need for Interactive Point-based Image Editing}, 
-      author={Pengyang Ling and Lin Chen and Pan Zhang and Huaian Chen and Yi Jin},
+      title={FreeDrag: Feature Dragging for Reliable Point-based Image Editing}, 
+      author={Pengyang Ling and Lin Chen and Pan Zhang and Huaian Chen and Yi Jin and Jinjin Zheng},
       year={2023},
       eprint={2307.04684},
       archivePrefix={arXiv},
