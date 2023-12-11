@@ -15,8 +15,8 @@
 ## Web Demo
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag)
 
-Official implementation of **FreeDrag: Point Tracking is Not What You Need for Interactive Point-based Image Editing**.
-- *Authors*: Pengyang Ling*, [Lin Chen*](https://lin-chen.site), [Pan Zhang](https://panzhang0212.github.io/), Huaian Chen, Yi Jin
+Official implementation of **FreeDrag: Feature Dragging for Reliable Point-based Image Editing**.
+- *Authors*: Pengyang Ling*, [Lin Chen*](https://lin-chen.site), [Pan Zhang](https://panzhang0212.github.io/), Huaian Chen, Yi Jin, Jinjin Zheng,
 - *Institutes*: University of Science and Technology of China; Shanghai AI Laboratory
 - [[Paper]](https://arxiv.org/abs/2307.04684) [[Project Page]](https://lin-chen.site/projects/freedrag) [[Web Demo]](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag)
 
