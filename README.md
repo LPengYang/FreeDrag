@@ -12,7 +12,7 @@
 [![]](https://user-images.githubusercontent.com/58554846/253733958-c97629a0-5928-476b-99f2-79d5f92762e7.mp4)
 
 
-## Web Demo
+## Web Demo (online dragging editing in 11 different StyleGAN2 models)
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/LPengYang/FreeDrag)
 
 Official implementation of **FreeDrag: Feature Dragging for Reliable Point-based Image Editing**.
