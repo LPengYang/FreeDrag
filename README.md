@@ -82,7 +82,7 @@ You can also upload your images and then edit them. For a high-quality image inv
 |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Resolution|512|256|512|512|1024|256|512|512|512|256|1024|
 
-The proposed **FreeDragBench Dataset** is available on the [website](https://drive.google.com/file/d/188CHb2oKVftpeVJtxqo-coz96z3KpFCm/view?usp=drive_link).
+The proposed **FreeDragBench Dataset** is available on the [website](https://drive.google.com/file/d/1p2muR6aW6fqEGW8yTcHl86DCuUkwgtNY/view?usp=sharing).
 
 ## ❤️Acknowledgments
 - [DragGAN](https://github.com/XingangPan/DragGAN/)
