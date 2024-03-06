@@ -2,7 +2,7 @@
   <img src="./resources/logo2.png">
 </p>
 
-# FreeDrag: Feature Dragging for Reliable Point-based Image Editing
+# FreeDrag: Feature Dragging for Reliable Point-based Image Editing  (CVPR 2024)
 <p align="center">
   <img src="./resources/Teaser.png">
   <img src="./resources/comparison_diffusion_2.png">
@@ -32,6 +32,8 @@ To serve the intricate and varied demands of image editing, precise and flexible
 </p>
 
 ## 📜 News
+[2024/03/06] [FreeDrag](https://arxiv.org/abs/2307.04684) is accepted by CVPR 2024.
+
 [2023/12/11] The updataed [FreeDrag](https://arxiv.org/abs/2307.04684) containing the implementations in both StyleGAN and Diffusion models is available now.
 
 [2023/12/8]  FreeDrag based on diffusion model is available now, which support dragging editing in both real images and generated images.
