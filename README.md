@@ -98,12 +98,10 @@ The code related to the FreeDrag algorithm is only allowed for personal activity
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
 ```bibtex
-@misc{ling2023freedrag,
-      title={FreeDrag: Feature Dragging for Reliable Point-based Image Editing}, 
-      author={Pengyang Ling and Lin Chen and Pan Zhang and Huaian Chen and Yi Jin and Jinjin Zheng},
-      year={2023},
-      eprint={2307.04684},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{ling2023freedrag,
+  title={Freedrag: Point tracking is not you need for interactive point-based image editing},
+  author={Ling, Pengyang and Chen, Lin and Zhang, Pan and Chen, Huaian and Jin, Yi},
+  journal={arXiv preprint arXiv:2307.04684},
+  year={2023}
 }
 ```
