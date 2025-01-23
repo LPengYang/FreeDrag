@@ -1,6 +1,6 @@
 gradio>=3.28.1
-Pydantic==1.10.8
-opencv-python==4.6.0.66
+Pydantic
+opencv-python
 scipy>=1.7.3
 ninja==1.11.1
 lpips
