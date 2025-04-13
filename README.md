@@ -2,7 +2,7 @@
   <img src="./resources/logo2.png">
 </p>
 
-# FreeDrag: Feature Dragging for Reliable Point-based Image Editing  (CVPR 2024)
+# FreeDrag: Feature Dragging for Reliable Point-based Image Editing
 <p align="center">
   <img src="./resources/Teaser.png">
   <img src="./resources/comparison_diffusion_2.png">
@@ -98,10 +98,11 @@ The code related to the FreeDrag algorithm is only allowed for personal activity
 ## ✒️ Citation
 If you find our work helpful for your research, please consider citing the following BibTeX entry.
 ```bibtex
-@article{ling2023freedrag,
-  title={Freedrag: Point tracking is not you need for interactive point-based image editing},
-  author={Ling, Pengyang and Chen, Lin and Zhang, Pan and Chen, Huaian and Jin, Yi},
-  journal={arXiv preprint arXiv:2307.04684},
-  year={2023}
+@inproceedings{ling2024freedrag,
+  title={Freedrag: Feature dragging for reliable point-based image editing},
+  author={Ling, Pengyang and Chen, Lin and Zhang, Pan and Chen, Huaian and Jin, Yi and Zheng, Jinjin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={6860--6870},
+  year={2024}
 }
 ```
